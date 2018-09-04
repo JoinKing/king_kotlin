@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.GuidePackage">
+    <include
+        app:layout_constraintTop_toBottomOf="parent"
+        android:id="@+id/ilTitle"
+        layout="@layout/layout_head_title"/>
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/ilTitle"
+        android:id="@+id/tvPackAge"
+        android:gravity="center"
+        android:text="@string/pakageName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</android.support.constraint.ConstraintLayout>
